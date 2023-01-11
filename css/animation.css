@@ -1,0 +1,64 @@
+.home .bolhas{
+    animation-name: painel_bolha;
+    animation-duration: 1.5s;
+}
+@keyframes painel_bolha {
+    0%   {width: 0vw;}
+    25%  {width: 12vw;background-color: black;}
+    50%  {width: 24vw;}
+    100% {width: 50vw;}
+}
+
+/* ___________ANIMACAO DAS BOLHAS_________ */
+#bolha1{
+    margin-left: 63%;
+    margin-top: -3%;
+    animation-name: bolha1;
+    animation-duration: 2s;
+    transition: 2s ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bolha1 {
+    0%   { margin-left: 63%; margin-top: -3%;}
+    25%  {margin-left: 9%; margin-top: 3%;}
+    75%  {margin-left: 20%; margin-top: 80%;}
+    50%  {margin-left: 15%; margin-top: 20%;}
+    100% {margin-left: 63%; margin-top: -3%;}
+}
+
+#bolha2{
+    margin-left: 3%;
+    margin-top: 10%;
+    animation-name: bolha2;
+    animation-duration: 2s;
+    transition: 2s ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bolha2 {
+    0%   {margin-left: 3%; margin-top: 10%;}
+    25%  {margin-left: 10%; margin-top: 20%;}
+    75%  {margin-left: 40%; margin-top: 35%;}
+    50%  {margin-left: 60%; margin-top: 95%;}
+    100% {margin-left: 3%; margin-top: 10%;}
+}
+
+#bolha3{
+    margin-left: 15%; margin-top: 50%;
+    animation-name: bolha3;
+    animation-duration: 2s;
+    transition: 2s ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bolha3 {
+    0%   {margin-left: 15%; margin-top: 50%;}
+    25%  {margin-left: 22%; margin-top: 57%;}
+    75%  {margin-left: 33%; margin-top: 75%;}
+    50%  {margin-left: 53%; margin-top: 95%;}
+    100% {margin-left: 15%; margin-top: 50%;}
+}
